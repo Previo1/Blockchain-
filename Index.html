@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Blockchain Wallet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚀 Mini Blockchain</h1>
+
+  <button onclick="generateWallet()">🔑 Generate Wallet</button>
+  <p id="wallet"></p>
+  <p id="balance"></p>
+
+  <h2>💸 Send Transaction</h2>
+  <input id="to" placeholder="Receiver Wallet">
+  <input id="amount" type="number" placeholder="Amount">
+  <button onclick="sendTx()">Send</button>
+
+  <h2>⛏️ Mining</h2>
+  <button onclick="mine()">Mine Block</button>
+  <p id="status"></p>
+
+  <h2>⛓ Blockchain</h2>
+  <pre id="chain"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
