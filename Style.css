@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+  text-align: center;
+  padding: 20px;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background: gold;
+  font-weight: bold;
+  cursor: pointer;
+}
+input {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+}
+pre {
+  text-align: left;
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
